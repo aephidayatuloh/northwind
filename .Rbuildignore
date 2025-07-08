@@ -8,3 +8,4 @@ data-raw/DATASET.R
 ^schema_diagram\.png$
 north.png
 .github/
+^\.github$
