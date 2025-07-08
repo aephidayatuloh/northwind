@@ -7,3 +7,4 @@ data-raw/DATASET.R
 ^LICENSE\.md$
 ^schema_diagram\.png$
 north.png
+.github/
