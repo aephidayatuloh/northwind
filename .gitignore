@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.Rproj.user
+.Rdata
+.DS_Store
+.quarto
+data-raw/DATASET.R
+data-raw/northwind.R
+dev.R
+LICENSE.md

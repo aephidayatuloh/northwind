@@ -1,0 +1,8 @@
+^renv$
+^renv\.lock$
+^data-raw$
+dev.R
+data-raw/northwind.R
+data-raw/DATASET.R
+^LICENSE\.md$
+^schema_diagram.png$
