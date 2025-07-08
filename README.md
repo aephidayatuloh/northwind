@@ -6,7 +6,7 @@
 
 ## Overview
 
-<img src="inst/figures/imgfile.png" align="right" height="50" />
+<img src="inst/figures/imgfile.png" align="right" height="150" />
 
 **`northwind`** is an R package that provides easy access to the Northwind database — a classic dataset used for learning SQL, database design, business intelligence, and data analysis. This package offers the dataset in a tidy format and supports integration with tools like `tidyverse` and `tidymodels`.
 
