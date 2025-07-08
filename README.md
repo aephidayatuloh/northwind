@@ -75,6 +75,9 @@ orders %>%
 ## Example: Top Selling Products
 
 ```
+library(northwind)
+library(dplyr)
+
 order_details %>%
   left_join(products, by = join_by(product_id)) %>%
   group_by(product_name) %>%
