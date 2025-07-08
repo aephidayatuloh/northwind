@@ -27,6 +27,11 @@ jobs:
             any::rcmdcheck
           needs: check
 
+      - name: Document the package
+        run: |
+          Rscript -e 'install.packages("devtools")'
+          Rscript -e 'devtools::document()'
+
       - name: Install R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
