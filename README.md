@@ -1,10 +1,12 @@
-# northwind <img src="inst/figures/imgfile.png" align="right" height="50" />
+# northwind 
 
 [![R-CMD-check](https://github.com/aephidayatuloh/northwind/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aephidayatuloh/northwind/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CRAN Status](https://www.r-pkg.org/badges/version/northwind)](https://cran.r-project.org/package=northwind)
 
 ## Overview
+
+<img src="inst/figures/imgfile.png" align="right" height="50" />
 
 **`northwind`** is an R package that provides easy access to the Northwind database — a classic dataset used for learning SQL, database design, business intelligence, and data analysis. This package offers the dataset in a tidy format and supports integration with tools like `tidyverse` and `tidymodels`.
 
