@@ -5,4 +5,5 @@ dev.R
 data-raw/northwind.R
 data-raw/DATASET.R
 ^LICENSE\.md$
-^schema_diagram.png$
+^schema_diagram\.png$
+north.png

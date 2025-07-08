@@ -1,6 +1,6 @@
-# northwind <img src="https://www.r-project.org/logo/Rlogo.png" align="right" height="50" />
+# northwind <img src="inst/figures/imgfile.png" align="right" height="50" />
 
-[![R-CMD-check](https://github.com/yourusername/northwind/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yourusername/northwind/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/aephidayatuloh/northwind/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aephidayatuloh/northwind/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CRAN Status](https://www.r-pkg.org/badges/version/northwind)](https://cran.r-project.org/package=northwind)
 
