@@ -26,10 +26,12 @@ jobs:
             any::rcmdcheck
           needs: check
 
-      - name: Install dependencies
-        run: |
-          Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_deps(dependencies = TRUE)'
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: |
+            any::rcmdcheck
+          needs: check
 
       - name: Check
         run: |
