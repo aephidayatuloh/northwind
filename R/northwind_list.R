@@ -1,16 +1,15 @@
 #' List of Available Northwind Tables
 #'
-#' Returns a tibble with the names and descriptions of the available tables
+#' Returns a data frame with the names and descriptions of the available tables
 #' included in the `northwind` package.
 #'
-#' @importFrom tibble tibble 
-#' @return A tibble with two columns: `table` and `description`
+#' @return A data frame with two columns: `table` and `description`
 #' @export
 #'
 #' @examples
 #' northwind_list()
 northwind_list <- function() {
-  tibble::tibble(
+  data.frame(
     table = c(
       "customers",
       "orders",
